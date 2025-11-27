@@ -1,7 +1,12 @@
 import { Router } from "express";
-import { createProduct, listProducts, getProduct, updateProduct, deleteProduct } from "../controllers/product.controller.js";
+import {
+  createProduct,
+  listProducts,
+  getProduct,
+  updateProduct,
+  deleteProduct,
+} from "../controllers/product.controller.js";
 import { auth, admin } from "../middleware/auth.js";
-
 
 const r = Router();
 r.post("/", auth, admin, createProduct);
