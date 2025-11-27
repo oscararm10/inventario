@@ -1,0 +1,17 @@
+{
+  "name": "Inventario API",
+  "version": "1.0.0",
+  "description": "Documentación de la API de Inventario",
+  "title": "Inventario API Docs",
+  "url": "http://localhost:3000",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  },
+  "order": [
+    "Auth",
+    "Products",
+    "Purchases",
+    "Admin"
+  ]
+}

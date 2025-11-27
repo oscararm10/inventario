@@ -33,7 +33,7 @@ inventario-api/
 
 1. Clonar repositorio:
 ```bash
-git clone <https://github.com/oscararm10/inventario.git>
+git clone https://github.com/oscararm10/inventario.git
 cd inventario-api
 ```
 
@@ -60,6 +60,7 @@ Usuario: `admin` / Password: `admin123`
 npm run dev
 ```
 Servidor disponible en `http://localhost:3000`
+Documentacion `http://localhost:3000/apidoc/index.html`
 
 ---
 
