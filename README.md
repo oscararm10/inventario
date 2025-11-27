@@ -60,6 +60,11 @@ Usuario: `admin` / Password: `admin123`
 npm run dev
 ```
 Servidor disponible en `http://localhost:3000`
+
+7. Documentacion API:
+```bash
+npx apidoc -i src -o apidoc
+```
 Documentacion `http://localhost:3000/apidoc/index.html`
 
 ---
