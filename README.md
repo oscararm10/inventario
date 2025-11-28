@@ -150,6 +150,25 @@ Ver todas las compras realizadas por todos los clientes (ADMIN).
 
 ---
 
+### 7️⃣ DELETE /products/:id (Producto)
+Eliminar productos (ADMIN).
+
+---
+
+### 8️⃣ PUT /products/:id (Producto)
+Actualizar producto.
+```json
+{
+  "lote": "L-009",
+  "nombre": "Teclado Mecánico RGB",
+  "precio": 85.99,
+  "cantidad_disponible": 30,
+  "fecha_ingreso": "2025-02-01"
+}
+```
+
+---
+
 ## 🔑 Autenticación
 Todos los endpoints excepto `/auth/register` y `/auth/login` requieren **JWT en header**:
 ```
